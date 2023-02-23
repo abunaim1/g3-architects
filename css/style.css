@@ -12,6 +12,28 @@ footer {
 section {
   margin-top: 100px;
 }
+/* Navigation style */
+nav {
+  background: rgba(255, 144, 14, 0.1);
+  display: flex;
+  justify-content: space-around;
+  column-gap: 400px;
+  padding-bottom: 50px;
+}
+.logo-text p {
+  font-size: 35px;
+  color: #131313;
+  font-weight: 900;
+}
+.nav-part {
+  display: flex;
+  align-items: center;
+}
+.nav-part a {
+  text-decoration: none;
+  color: #3a3a3a;
+  padding-right: 50px;
+}
 /* Banner Section Styles */
 .banner {
   background: rgba(255, 144, 14, 0.1);
@@ -204,8 +226,8 @@ section {
   margin-bottom: 100px;
 }
 /* Footer Style */
-footer{
-    margin-bottom: 50px;
+footer {
+  margin-bottom: 50px;
 }
 .footer p {
   margin: 0;
